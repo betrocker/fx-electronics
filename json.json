@@ -1,0 +1,1490 @@
+{
+  "devices": {
+    "0":{
+      "name": "iPhone",
+      "pic": "images/devices/iphone.png",
+      "models": {
+        "0": {
+          "pic": "images/models/IPhone_7_Plus.png",
+          "name": "iPhone 7 Plus",
+          "short_name": "7+",
+          "malfunction": {
+            "main": {
+              "0": {
+                "name": "Polomljen display",
+                "pic": "images/malfunction/1.png",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "10€",
+                    "display_price": "<b>10€</b>"
+                  },
+                  "2":{
+                    "name": "Nov display",
+                    "price": "70€",
+                    "display_price": "<b>70€</b>"
+                  }
+                },
+                "details": ["Vreme popravke: 20 minuta","Garancija: 6 meseci","Zamenski deo: samo original","Profesionalna oprema"]
+              },
+              "1": {
+                "name": "Zvučnik ne radi",
+                "pic": "images/malfunction/2.png",
+                "price": "20€",
+                "display_price": "<b>20€</b>",
+                "departure": "Y",
+                "departure_price": "5€",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "10€",
+                    "display_price": "<b>10€</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski deo",
+                    "price": "10€",
+                    "display_price": "<b>10€</b>"
+                  }
+                },
+                "details": ["Vreme popravke: 20 minuta","Garancija: 6 meseci","Zamenski delovi: samo original","Profesionalna oprema"]
+              },
+              "2": {
+                "name": "Telefon ne pali (mrtav)",
+                "pic": "images/malfunction/3.png",
+                "price": "80€",
+                "display_price": "<b>80€</b>",
+                "departure": "Y",
+                "departure_price": "5€",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25€",
+                    "display_price": "<b>25€</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50€",
+                    "display_price": "<b>50€</b>"
+                  }
+                }
+              },
+              "3": {
+                "name": "Wi-Fi ne radi",
+                "pic": "images/malfunction/4.png",
+                "price": "80€",
+                "display_price": "<b>80€</b>",
+                "departure": "Y",
+                "departure_price": "5€",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25€",
+                    "display_price": "<b>25€</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50€",
+                    "display_price": "<b>50€</b>"
+                  }
+                }
+              },
+              "4": {
+                "name": "Drowned",
+                "pic": "images/malfunction/5.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "5": {
+                "name": "Not charging",
+                "pic": "images/malfunction/6.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              }
+            },
+            "full": {
+              "6": {
+                "name": "Problem with the screen 2",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "7": {
+                "name": "Speaker wheezes",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "8": {
+                "name": "does not turn off",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "9": {
+                "name": "Wi-Fi not connected",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "10": {
+                "name": "Drowned",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "11": {
+                "name": "Not charging",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "12": {
+                "name": "Problem with the screen 2",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "13": {
+                "name": "Speaker wheezes",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "14": {
+                "name": "does not turn off",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "15": {
+                "name": "Wi-Fi not connected",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "16": {
+                "name": "Drowned",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "17": {
+                "name": "Not charging",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "1": {
+          "pic": "images/models/IPhone_7.png",
+          "name": "iPhone 7",
+          "short_name": "7",
+          "malfunction": {
+            "main": {
+              "0": {
+                "name": "Broken display",
+                "pic": "images/malfunction/1.png",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                },
+                "details": ["Vreme popravke: 20 minuta","Garancija: 1 meseci","Zamenski delovi: samo original","Profesionalna oprema"]
+              },
+              "1": {
+                "name": "Speaker does not work",
+                "pic": "images/malfunction/2.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "20",
+                    "display_price": "<b>20</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "42",
+                    "display_price": "<b>42</b>"
+                  }
+                },
+                "details": ["Vreme popravke: 20 minuta","Garancija: 1 meseci","Zamenski delovi: samo original","Profesionalna oprema"]
+              },
+              "2": {
+                "name": "Does not turn on",
+                "pic": "images/malfunction/3.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "3": {
+                "name": "Wi-Fi not connected",
+                "pic": "images/malfunction/4.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "4": {
+                "name": "Drowned",
+                "pic": "images/malfunction/5.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "5": {
+                "name": "Not charging",
+                "pic": "images/malfunction/6.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              }
+            },
+            "full": {
+              "6": {
+                "name": "Problem with the screen 2",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "7": {
+                "name": "Speaker wheezes",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "8": {
+                "name": "does not turn off",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "9": {
+                "name": "Wi-Fi not connected",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "10": {
+                "name": "Drowned",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "11": {
+                "name": "Not charging",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "12": {
+                "name": "Problem with the screen 2",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "13": {
+                "name": "Speaker wheezes",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "14": {
+                "name": "does not turn off",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "15": {
+                "name": "Wi-Fi not connected",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "16": {
+                "name": "Drowned",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "17": {
+                "name": "Not charging",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "pic": "images/models/IPhone_SE.png",
+          "name": "iPhone SE",
+          "short_name": "SE",
+          "malfunction": {
+            "main": {
+              "0": {
+                "name": "Broken display",
+                "pic": "images/malfunction/1.png",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                },
+                "details": ["Vreme popravke: 20 minuta","Garancija: 1 meseci","Zamenski delovi: samo original","Profesionalna oprema"]
+              },
+              "1": {
+                "name": "Speaker does not work",
+                "pic": "images/malfunction/2.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "20",
+                    "display_price": "<b>20</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "42",
+                    "display_price": "<b>42</b>"
+                  }
+                },
+                "details": ["Vreme popravke: 20 minuta","Garancija: 1 meseci","Zamenski delovi: samo original","Profesionalna oprema"]
+              },
+              "2": {
+                "name": "Does not turn on",
+                "pic": "images/malfunction/3.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "3": {
+                "name": "Wi-Fi not connected",
+                "pic": "images/malfunction/4.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "4": {
+                "name": "Drowned",
+                "pic": "images/malfunction/5.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "5": {
+                "name": "Not charging",
+                "pic": "images/malfunction/6.png",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              }
+            },
+            "full": {
+              "6": {
+                "name": "Problem with the screen 2",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "7": {
+                "name": "Speaker wheezes",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "8": {
+                "name": "does not turn off",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "9": {
+                "name": "Wi-Fi not connected",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "10": {
+                "name": "Drowned",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "11": {
+                "name": "Not charging",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "12": {
+                "name": "Problem with the screen 2",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "13": {
+                "name": "Speaker wheezes",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "14": {
+                "name": "does not turn off",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "15": {
+                "name": "Wi-Fi not connected",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "16": {
+                "name": "Drowned",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              },
+              "17": {
+                "name": "Not charging",
+                "price": "83",
+                "display_price": "<b>83</b>",
+                "departure": "Y",
+                "departure_price": "8",
+                "price_detail": {
+                  "0":{
+                    "name": "Dijagnostika",
+                    "price": "0",
+                    "display_price": "besplatno"
+                  },
+                  "1":{
+                    "name": "Rad servisera",
+                    "price": "25",
+                    "display_price": "<b>25</b>"
+                  },
+                  "2":{
+                    "name": "Zamenski delovi",
+                    "price": "50",
+                    "display_price": "<b>50</b>"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "pic": "images/models/IPhone_6s_Plus_Rose.png",
+          "name": "iPhone 6s Plus",
+          "short_name": "6s+"
+        },
+        "4": {
+          "pic": "images/models/IPhone_6s_Rose.png",
+          "name": "iPhone 6s",
+          "short_name": "6s"
+        },
+        "5": {
+          "pic": "images/models/IPhone_6_Plus_Grey.png",
+          "name": "iPhone 6 Plus",
+          "short_name": "6+"
+        },
+        "6": {
+          "pic": "images/models/IPhone_6_Grey.png",
+          "name": "iPhone 6",
+          "short_name": "6"
+        },
+        "7": {
+          "pic": "images/models/IPhone_5s_black.png",
+          "name": "iPhone 5s",
+          "short_name": "5s"
+        },
+        "8": {
+          "pic": "images/models/IPhone_5c_white.png",
+          "name": "iPhone 5c",
+          "short_name": "5c"
+        },
+        "9": {
+          "pic": "images/models/IPhone_5.png",
+          "name": "iPhone 5",
+          "short_name": "5"
+        },
+        "10": {
+          "pic": "images/models/IPhone4S.png",
+          "name": "iPhone 4s",
+          "short_name": "4s"
+        },
+        "11": {
+          "pic": "images/models/IPhone3,1.png",
+          "name": "iPhone 4",
+          "short_name": "4"
+        },
+        "12": {
+          "pic": "images/models/IPhone3GS.png",
+          "name": "iPhone 3GS",
+          "short_name": "3GS"
+        },
+        "13": {
+          "pic": "images/models/IPhone3G.png",
+          "name": "iPhone 3G",
+          "short_name": "3G"
+        },
+        "14": {
+          "pic": "images/models/iphone1.png",
+          "name": "iPhone",
+          "short_name": "1"
+        }
+      }
+    },
+    "1":{
+      "name": "iPad",
+      "pic": "images/devices/ipad.png",
+      "models": {
+        "0": {
+          "pic": "images/models/0002500_ipad-pro-129-inch.png",
+          "name": "12.9-inch iPad Pro",
+          "short_name": "Pro 12.9″"
+        },
+        "1": {
+          "pic": "images/models/0002500_ipad-pro-129-inch.png",
+          "name": "10.5-inch iPad Pro",
+          "short_name": "Pro 10.5″"
+        },
+        "2": {
+          "pic": "images/models/IPad_Air_2_Wikipedia.png",
+          "name": "Air 2",
+          "short_name": "Air 2"
+        },
+        "4": {
+          "pic": "images/models/apple_ipad_mini_4_128gb_space_grey_header.png",
+          "name": "Mini 4",
+          "short_name": "Mini 4"
+        },
+        "5": {
+          "pic": "images/models/apple_ipad_mini_4_128gb_space_grey_header.png",
+          "name": "Mini 2",
+          "short_name": "Mini 2"
+        }
+      }
+    },
+    "2":{
+      "name": "MacBook",
+      "pic": "images/devices/macbook.png",
+      "models": {
+        "0": {
+          "pic": "images/models/air11.png",
+          "name": "MacBook Air 11″",
+          "short_name": "Air 11″"
+        },
+        "1": {
+          "pic": "images/models/air13.png",
+          "name": "MacBook Air 13″",
+          "short_name": "Air 13″"
+        },
+        "2": {
+          "pic": "images/models/pro13.png",
+          "name": "MacBook Pro 13″",
+          "short_name": "Pro 13″"
+        },
+        "3": {
+          "pic": "images/models/pro15.png",
+          "name": "MacBook Pro 15″",
+          "short_name": "Pro 15″"
+        },
+        "4": {
+          "pic": "images/models/pror13.png",
+          "name": "MacBook Pro Retina 13″",
+          "short_name": "Pro Retina 13″"
+        },
+        "5": {
+          "pic": "images/models/pror15.png",
+          "name": "MacBook Pro Retina 15″",
+          "short_name": "Pro Retina 15″"
+        }
+      }
+    },
+    "3":{
+      "name": "Mac Pro",
+      "pic": "images/devices/macpro.png"
+    },
+    "4":{
+      "name": "iMac",
+      "pic": "images/devices/imac.png"
+    },
+    "5":{
+      "name": "Mac mini",
+      "pic": "images/devices/macmini.png"
+    }
+  }
+}

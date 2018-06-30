@@ -1,0 +1,16 @@
+{
+  "name": "my-project",
+  "description": "A Vue.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+  	"dev": "npm-run-all --parallel watch-css serve",
+    "serve": "reload -b",
+    "build-css": "lessc less/style.less > css/app.css",
+    "watch-css": "watch -p \"less/**/*.less\" -c \"npm run build-css\""
+  },
+  "devDependencies": {
+    "less": "^2.7.2",
+    "npm-run-all": "^4.1.1"
+  }
+}

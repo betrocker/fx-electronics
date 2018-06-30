@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.png">
+    <title>FX Electronics | Servis Elektronike u Nišu</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/app.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="js/pace.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtBKwjuvC0L3NQ1QR1TjO7ehVAkkZ3eP4"></script>
+
+    <script type="text/javascript">
+        // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
+
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 17,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(43.339008, 21.920565), //
+
+                // How you would like to style the map.
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [{"featureType":"landscape","stylers":[{"color":"#f1f1f1"}]},{"featureType":"road.highway","stylers":[{"hue":"#FFC200"},{"saturation":-61.8},{"lightness":45.599999999999994},{"gamma":1}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color": "#d7d7d7"}]},{"featureType":"road.arterial","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":51.19999999999999},{"gamma":1}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color": "#d7d7d7"}]},{"featureType":"road.local","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":52},{"gamma":1}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color": "#d7d7d7"}]},{"featureType":"water","stylers":[{"hue":"#0078FF"},{"saturation":-13.200000000000003},{"lightness":2.4000000000000057},{"gamma":1}]},{"featureType":"poi","stylers":[{"hue":"#00FF6A"},{"saturation":-1.0989010989011234},{"lightness":11.200000000000017},{"gamma":1}]}]
+            };
+
+            // Get the HTML DOM element that will contain your map
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('map');
+
+            // Create the Google Map using our element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+
+            // Let's also add a marker while we're at it
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(43.339008, 21.920565),
+                map: map,
+                title: 'Gemini Servis Centar'
+            });
+        }
+    </script>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div id="apple-service-app">
+      <div class="visible-xs top-menu">
+        <div class="container">
+          <div class="navigation"><a href="#"><span></span><span></span><span></span></a></div>
+          <div class="logotype"><a href="#">Apple Servis u Nišu</a></div>
+          <div class="contact"><a href="tel:+14951234567"><i class="fa fa-phone" aria-hidden="true"></i></a></div>
+        </div>
+      </div>
+      <div class="burger">
+        <div class="container">
+          <div class="list ajax-list">
+          </div>
+          <div class="list">
+            <div class="item"><a href="#">Kontakt</a></div>
+            <div class="item"><a href="#">O nama</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="container">
+          <div class="hline">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3 col-md-2 col-lg-3 hidden-xs">
+                <div class="logo">
+                  <a href="#"><img src="images/logo.png" alt="#"></a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-3 col-md-5 col-lg-4 hidden-xs">
+                <div class="adr">
+                  <a href="#">Gornjomatejevačka 83b, NIŠ 18000<span class="hidden-sm"><br/>Ponedeljak - Petak: <span>10:00 - 21:30</span><br/>Subota/Nedelja: <span>11:00 - 17:00</span></span></a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-3 col-md-3 hidden-xs">
+                <div class="phone">
+                  <a href="#"><span>+381(061) 300-10-40</span><br/>Viber, WhatsApp, Messenger</a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-3 col-md-2 hidden-xs">
+                <div class="callback text-right">
+                  <a href="#" class="btn btn-block" v-on:click.prevent="showCallBackModal = !showCallBackModal">POZOVITE NAS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hleft">
+            <div class="title">
+              <div class="h1">Apple <span class="xs">Servis</span><span class="visible-xs-inline"> u Nišu</span></div>
+              <div class="h2">Specijalizovani servis centar za Apple i Samsung uređaje</div>
+            </div>
+            <!-- <div class="changes">
+              <div class="hidden-xs">
+                <span class="r">Official exchange</span><br/>old / broken / recessed<br/><span class="y">iPhone</span> on <span class="y">new!</span>
+              </div>
+              <a href="#" class="btn hidden-xs" v-on:click.prevent="showChangeModal = !showChangeModal">Saznaj više</a>
+              <a href="#" class="btn btn-block visible-xs" v-on:click.prevent="showChangeModal = !showChangeModal">Official iPhone exchange for a new one!</a>
+            </div> -->
+          </div>
+          <div class="hright">
+            <div class="desc hidden-xs">
+              <ul>
+                <li>Dolazak na Vašu adresu<br/> (Niš i okolina)</li>
+                <li>Popravka<br/>u našem servisu</li>
+                <li>We'll fix it for you<br/>in 20 minutes</li>
+                <li>Garancija<br/>do 6 meseci</li>
+              </ul>
+            </div>
+            <div class="desc visible-xs">
+              <ul>
+                <li>Outside repair is possible</li>
+                <li>Diagnostics - free of charge</li>
+                <li>Repair for you in 20 minutes</li>
+              </ul>
+            </div>
+          </div>
+          <a href="#" class="call-master input-group" v-on:click.prevent="showMasterModal = true">
+            <span class="input-group-addon">Pozovite servisera</span>
+            <span class="input-group-addon">+381 (061) <span>300-10-40</span></span>
+          </a>
+          <div class="view visible-xs">Izračunajte cenu u 3 koraka</div>
+          <div class="view hidden-xs">Izračunajte cenu <span>u 2 koraka!</span></div>
+        </div>
+        <a href="#devices-scroll" class="more" v-scroll-to="{el: '#devices-scroll',container: 'body',duration: 500}"></a>
+      </div>
+      <!-- /.header -->
+
+      <div class="devices" id="devices-scroll" :class="{affix:fixPanel}">
+        <div class="title">Izaberite <span class="xs">uređaj</span><span class="hidden-xs"> i saznajte cenu popravke</span></div>
+        <div class="container">
+          <div class="callback"><a href="#" class="btn btn-warning" v-on:click.prevent="showCallBackModal = true">ZAKAŽITE POZIV</a></div>
+          <div class="phone">+381 (061) <span>300-10-40</span></div>
+          <div class="logo"><a href="#"><img src="images/logo-black.png" alt="#"></a></div>
+          <ul>
+            <li v-for="(device,key) in devices">
+              <a href="#"
+                v-on:click.prevent="changeDevice(key)"
+                :class="{active : deviceId===key}"
+                v-scroll-to="{el: '#model-scroll',container: 'body',duration: 500,offset: -80}">
+                  <span class="img"
+                    v-bind:style="{ 'background-image': 'url(' + device.pic + ')' }"></span>{{device.name}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /.devices -->
+      <div class="device-affix-line"></div>
+
+      <transition name="fade">
+        <div class="models" v-if="deviceId!==false" id="model-scroll">
+          <div class="inner">
+            <div class="title">Izaberite <span class="xs">model</span><span class="hidden-xs"> Vašeg uređaja</span></div>
+            <div class="container">
+              <div class="row">
+                <div
+                  class="col-xs-6 col-sm-4 col-md-3"
+                  v-for="(model,key) in models">
+                    <a href="#"
+                      class="item"
+                      v-on:click.prevent="changeModel(key)"
+                      :class="{active : modelId===key}"
+                      v-scroll-to="{el: '#malfunction-scroll',container: 'body',duration: 500,offset: -80}">
+                        <span class="img" v-bind:style="{ 'background-image': 'url(' + model.pic + ')' }"></span>
+                        <span class="name">{{model.name}}</span>
+                        <span class="btn btn-warning"><span class="check"></span>Izaberi</span>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
+      <!-- /.models -->
+
+      <transition name="fade">
+        <div class="malfunction" v-if="modelId!==false" id="malfunction-scroll">
+          <div class="left">
+            <div class="inner">
+              <div class="title">Izaberite <span class="xs">kvar</span></div>
+              <div class="malfunction-main">
+                <div class="row" id="malfunction-main">
+                  <div class="col-xs-6 col-md-4"
+                    v-for="(mal,key) in malfunctions.main">
+                      <a href="#"
+                        class="item"
+                        v-on:click.prevent="changeMalfunction(key)"
+                        :class="{active : malfunctionId===key}"
+                        v-scroll-to="{el: '#calculation-scroll',container: 'body',duration: 500,offset: -80}">
+                          <span class="img" v-bind:style="{ 'background-image': 'url(' + mal.pic + ')' }"></span>
+                          <span class="name">{{mal.name}}</span>
+                      </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="inner">
+              <div class="title">Kompletna lista</div>
+              <div class="scrollbar">
+                <ul class="items malfunction-full" id="malfunction-full">
+                  <li v-for="(mal,key) in malfunctions.full">
+                    <a href="#"
+                      class="item"
+                      v-on:click.prevent="changeMalfunction(key)"
+                      :class="{active : malfunctionId===key}"
+                      v-scroll-to="{el: '#calculation-scroll',container: 'body',duration: 500,offset: -80}">
+                        <span class="btn btn-warning">Izaberi</span>
+                        <span class="name">{{mal.name}}</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
+      <!-- /.malfunction -->
+
+      <transition name="fade">
+        <div class="calculation" v-if="malfunctionId!==false" id="calculation-scroll">
+          <div class="container">
+            <div class="title">Vaš proracun <span class="hidden-xs"> cene <span class="xs">je spreman!</span></span></div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="selects">
+                  <div class="form-group">
+                    <label for="select-device">Uređaj</label>
+                    <div class="select-style">
+                      <v-select :options="devices_select" :on-change="changeDeviceSelect" v-model="devices[deviceId].name"></v-select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="select-model">Model</label>
+                    <div class="select-style">
+                      <v-select :options="models_select" :on-change="changeModelSelect" v-model="models[modelId].short_name"></v-select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="select-malfunction">Kvar</label>
+                    <div class="select-style">
+                      <v-select :options="malfunctions_select" :on-change="changeMalfunctionSelect" v-model="malfunctionsFullList[malfunctionId].name"></v-select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div id="master-departure" v-if="malfunction.departure=='Y'">
+                  <div class="master-departure">
+                    <div class="title">Ovaj kvar može biti rešen <span class="xs">u Vašem domu!</span></div>
+                    <div class="dtitle">Pozovite servisera:</div>
+                    <div class="dcheckbox">
+                      <input type="checkbox" id="depMaster" v-model="depMaster" />
+                      <label for="depMaster">
+                        <span class="n">Ne</span>
+                        <span class="y">Da</span>
+                      </label>
+                    </div>
+                    <div class="dprice">+ €<b>{{malfunction.departure_price}}</b></div>
+                    <div class="ddesc">Serviser će stići na Vašu adresu u narednih 1-2 sata</div>
+                  </div>
+                </div>
+                <div class="detail-price">
+                  <div id="detail-price">
+                    <table class="table" v-for="price in malfunction.price_detail">
+                      <tbody>
+                        <tr>
+                          <td v-html="price.name"></td><td></td><td v-html="price.display_price"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div v-if="malfunction.departure=='Y'">
+                    <div id="master-detail-price" v-if="depMaster">
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td>Dolazak servisera</td><td></td><td>od €<b>{{malfunction.departure_price}}</b></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div id="full-price">
+                  <div class="full-price">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td><b>Cena popravke</b></td><td>€<b>{{total_price}}</b></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <ul class="d-list" id="detail-list">
+                  <li v-for="text in malfunction.details">{{text}}</li>
+                </ul>
+                <div class="d-form">
+                  <div class="title">Kako da Vas kontaktiramo?</div>
+                  <form v-on:submit.prevent="onSubmitOrderTopForm" method="POST" action="calculation.php" role="form" id="order-top-form">
+                    <div class="form-group left">
+                      <label class="sr-only">Ime</label>
+                      <input type="text" name="name" class="form-control" placeholder="Name" required />
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only">Telefon</label>
+                      <input type="tel" name="phone" pattern="^\d{4}-\d{3}-\d{4}$" class="form-control" placeholder="Phone (1234-567-8901)" required />
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only">Adresa za dolazak servisera</label>
+                      <input type="text" name="addr" class="form-control" placeholder="The address where to arrive to the master" required />
+                    </div>
+                    <button class="btn btn-warning" type="submit">Pošalji prijavu <span class="str"></span></button>
+                  </form>
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="payment-info">NE PRIHVATAMO KARTICE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
+      <!-- /.calculation -->
+
+      <transition name="fade">
+        <div class="mini-notification" v-if="malfunctionId!==false" v-on:click="showOrderModal = true">
+          <div class="container">
+            <div class="t">
+              <div class="left"><span class="n-malfunction">{{ malfunctionsFullList[malfunctionId].name }}</span> <span class="n-dm"><span class="n-device">{{devices[deviceId].name}}</span> <span class="n-model">{{models[modelId].short_name}}</span></span></div>
+              <div class="right">€<span class="price">{{total_price}}</span></div>
+            </div>
+          </div>
+        </div>
+      </transition>
+      <!-- /.mini-notification -->
+
+      <div class="visiting-repair">
+        <div class="text">
+          <div class="inner">
+            <div class="title"><span class="xs">Popravka van servisa</span><span class="hidden-xs"> na mestu koje Vama odgovara</span></div>
+            <p>U 80% slucajeva, popravka može biti izvršena na mestu koje Vama odgovara, za svega 15-20 minuta. Serviser će doći na unapred dogovorenu adresu, na primer kod Vas kući, u kancelariji, kafiću, uradiće dijagnostiku i eliminisati kvar, ukoliko je to moguće bez odlaska u servis.</p>
+            <ul>
+              <li>Bilo gde</li>
+              <li>Bilo kada</li>
+              <li>Besplatna dijagnostika</li>
+              <li>Popravka u Vašem prisustvu</li>
+            </ul>
+            <a href="#" class="btn btn-warning" v-on:click.prevent="showMasterModal = true">Zakažite servisera</a>
+          </div>
+        </div>
+        <div class="img" style="background-image: url('images/banana-man.jpg');"></div>
+      </div>
+      <!-- /.visiting-repair -->
+
+      <div class="repair-service-center">
+        <div class="text">
+          <div class="inner">
+            <div class="title">Popravka u <span class="xs">servisnom centru</span></div>
+            <p>Ukoliko kvar ne može biti eliminisan na terenu, i za popravku je neophodna stacionarna oprema, takve popravke vršimo u našem servisnom centru, gde imamo svu potrebnu opremu za elimisanje kompleksnih kvarova.</p>
+            <ul>
+              <li>Brza isporuke preko kurira</li>
+              <li>Stacionarna oprema</li>
+              <li>Popravka kompleksnih kvarova</li>
+              <li>Potpuna privatnost Vaših podataka</li>
+            </ul>
+            <div class="input-group">
+              <a href="#" class="input-group-addon">Kako do nas</a>
+              <a href="#" class="input-group-addon" v-on:click.prevent="showCourierModal = true">Zakažite kurira</a>
+            </div>
+          </div>
+        </div>
+        <div class="img" style="background-image: url('images/repair-service-center-bg.jpg');"></div>
+      </div>
+      <!-- /.repair-service-center -->
+
+      <!-- Modal -->
+
+      <transition name="fade">
+        <div class="modal fade courier-modal" v-if="showCallBackModal" v-bind:class="{ in : showCallBackModal }" v-bind:style="CallBackModalStyle" v-on:click.self="showCallBackModal = false" id="callbackModal" tabindex="-1" role="dialog" aria-labelledby="callbackModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="i1">
+                  <div class="i2">
+                    <button type="button" class="close" v-on:click.prevent="showCallBackModal = false"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="callbackModalLabel">Naš poziv Vama</h4>
+                    <h5 class="modal-title">Pozvaćemo Vas u roku od 5-10 minuta!</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div class="form">
+                  <div class="text-center">
+                    <div class="title">Unesite Vaše ime i broj telefona</div>
+                    <form v-on:submit.prevent="onSubmitForm" method="POST" action="callback.php" role="form" id="callback-form">
+                      <div class="msg"></div>
+                      <div class="form-group left">
+                        <label class="sr-only">Ime</label>
+                        <input type="text" name="name" v-model="sendData.formUserName" class="form-control" placeholder="Name" required />
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only">Broj telefona</label>
+                        <input type="tel" name="phone" v-model="sendData.formUserPhone" pattern="^\d{4}-\d{3}-\d{4}$" class="form-control" placeholder="Phone (1234-567-8901)" required />
+                      </div>
+                      <button class="btn btn-warning" type="submit">Pošaljite zahtev <span class="str"></span></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
+
+      <transition name="fade">
+        <div class="modal fade courier-modal" v-if="showCourierModal" v-bind:class="{ in : showCourierModal }" v-bind:style="CourierModalStyle" v-on:click.self="showCourierModal = false" id="courierModal" tabindex="-1" role="dialog" aria-labelledby="courierModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="i1">
+                  <div class="i2">
+                    <button type="button" class="close" v-on:click.prevent="showCourierModal = false"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="courierModalLabel">Poziv kurira</h4>
+                    <h5 class="modal-title">Kontaktiraćemo Vas radi više detalja.</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div class="form">
+                  <div class="text-center">
+                    <div class="title">Popunite kontakt informacije</div>
+                    <form v-on:submit.prevent="onSubmitForm" method="POST" action="courier.php" role="form" id="courier-form">
+                      <div class="msg"></div>
+                      <div class="form-group left">
+                        <label class="sr-only">Ime</label>
+                        <input type="text" name="name" v-model="sendData.formUserName" class="form-control" placeholder="Name" required />
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only">Broj telefona</label>
+                        <input type="tel" name="phone" v-model="sendData.formUserPhone" pattern="^\d{4}-\d{3}-\d{4}$" class="form-control" placeholder="Phone (1234-567-8901)" required />
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only">Adresa</label>
+                        <input type="text" name="addr" v-model="sendData.formUserAddress" class="form-control" placeholder="Address" required />
+                      </div>
+                      <button class="btn btn-warning" type="submit">Pošaljite zahtev <span class="str"></span></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
+
+      <transition name="fade">
+        <div class="modal fade courier-modal" v-if="showMasterModal" v-bind:class="{ in : showMasterModal }" v-bind:style="MasterModalStyle" v-on:click.self="showMasterModal = false" id="masterModal" tabindex="-1" role="dialog" aria-labelledby="masterModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="i1">
+                  <div class="i2">
+                    <button type="button" class="close" v-on:click.prevent="showMasterModal = false"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="masterModalLabel">Poziv servisera</h4>
+                    <h5 class="modal-title">Kontaktiraćemo Vas radi više detalja.</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div class="form">
+                  <div class="text-center">
+                    <div class="title">Popunite kontakt informacije</div>
+                    <form v-on:submit.prevent="onSubmitForm" method="POST" action="master.php" role="form" id="master-form">
+                      <div class="msg"></div>
+                      <div class="form-group left">
+                        <label class="sr-only">Ime</label>
+                        <input type="text" name="name" v-model="sendData.formUserName" class="form-control" placeholder="Name" required />
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only">Broj telefona</label>
+                        <input type="tel" name="phone" v-model="sendData.formUserPhone" pattern="^\d{4}-\d{3}-\d{4}$" class="form-control" placeholder="Phone (1234-567-8901)" required />
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only">Adresa</label>
+                        <input type="text" name="addr" v-model="sendData.formUserAddress" class="form-control" placeholder="Address" required />
+                      </div>
+                      <button class="btn btn-warning" type="submit">Pošaljite zahtev <span class="str"></span></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
+
+      <transition name="fade">
+        <div class="modal fade change-modal" v-if="showChangeModal" v-bind:class="{ in : showChangeModal }" v-bind:style="changeModalStyle" v-on:click.self="showChangeModal = false" id="changeModal" tabindex="-1" role="dialog" aria-labelledby="changeModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="i1">
+                  <div class="i2">
+                    <button type="button" class="close" aria-label="Close" v-on:click.prevent="showChangeModal = false"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="changeModalLabel">Prodajte Vaš stari ili oštećeni telefon</h4>
+                    <h5 class="modal-title">plaćamo do 200€</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-xs-12 col-md-6 col-md-offset-1">
+                    <div class="title">Uslovi otkupa</div>
+                    <p>Vršimo otkup Apple i Samsung uređaja, neispravnih TV-a i laptopova novije generacije. Cena otkupa zavisi od stanja Vašeg uređaja, a našu konkretnu ponudu možete dobiti dolaskom u servisni centar, nakon pregleda samog uređaja. Ukoliko niste iz Niša, ili okoline, a želite da prodate Vaš uređaj možete nam ga poslati i putem kurirskih službi.</p>
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                    <div class="form">
+                      <div class="text-center">
+                        <div class="title">Popunite formular</div>
+                        <div class="desc">radi provere mogućnosti otkupa</div>
+                      </div>
+                      <form v-on:submit.prevent="onSubmitForm" method="POST" action="master.php" role="form" id="change-form">
+                        <div class="msg"></div>
+                        <div class="form-group">
+                          <label class="sr-only">IMEI telefona</label>
+                          <input type="text" name="imei" v-model="sendData.formUserImei" class="form-control" placeholder="IMEI phone code" required />
+                        </div>
+                        <div class="form-group left">
+                          <label class="sr-only">Ime</label>
+                          <input type="text" name="name" v-model="sendData.formUserName" class="form-control" placeholder="Name" required />
+                        </div>
+                        <div class="form-group">
+                          <label class="sr-only">Broj telefona ili email adresa</label>
+                          <input type="text" name="contact" v-model="sendData.formUserPhoneOrEmail" class="form-control" placeholder="Phone or email" required />
+                        </div>
+                        <button class="btn btn-block btn-warning" type="submit">Pošaljite zahtev</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
+
+      <transition name="fade">
+        <div class="modal fade order-modal"  v-if="showOrderModal"  v-bind:class="{ in : showOrderModal }"  v-bind:style="orderModalStyle"  v-on:click.self="showOrderModal = false" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" v-on:click.prevent="showOrderModal = false"></button>
+                <h4 class="modal-title" id="orderModalLabel"><span class="n-malfunction">{{ malfunctionsFullList[malfunctionId].name }}</span> <span class="n-dm"><span class="n-device">{{devices[deviceId].name}}</span> <span class="n-model">{{models[modelId].short_name}}</span></span></h4>
+              </div>
+              <div class="modal-body">
+                <div class="msg-auto text-center">Ova ponuda je generisana automatski na osnovu Vašeg zahteva</div>
+                <div class="price">
+                  <div class="left">UKUPNA CENA</div>
+                  <div class="right">
+                    <div class="val">€<span class="m-price">{{total_price}}</span></div>
+                  </div>
+                </div>
+                <div class="payment-info">NE PRIHVATAMO KARTICE</div>
+                <div class="detail-price">
+                  <div class="dp-title">Šta je uključeno u cenu:</div>
+                  <div id="detail-price-dbl">
+                    <table class="table" v-for="price in malfunction.price_detail">
+                      <tbody>
+                        <tr>
+                          <td v-html="price.name"></td><td></td><td v-html="price.display_price"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div v-if="malfunction.departure=='Y'">
+                    <div id="master-detail-price-dbl" v-if="depMaster">
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td>Dolazak servisera</td><td></td><td>od €<b>{{malfunction.departure_price}}</b></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <ul class="d-list">
+                  <li v-for="text in malfunction.details">{{text}}</li>
+                </ul>
+                <div class="z-title">Ostavite zahtev!</div>
+                <div class="z-desc">Kontaktiraćemo Vas u roku od 5-10 minuta</div>
+                <form v-on:submit.prevent="onSubmitOrderForm" method="POST" action="calculation.php" role="form" id="order-form">
+                  <div class="inputs">
+                    <div class="form-group left">
+                      <label class="sr-only">Ime</label>
+                      <input type="text" name="name" v-model="sendData.formUserName" class="form-control" placeholder="Name" required />
+                    </div>
+                    <div class="form-group">
+                      <label class="sr-only">Broj telefona</label>
+                      <input type="text" name="phone" v-model="sendData.formUserPhone" class="form-control" placeholder="Phone (1234-567-8901)" required />
+                    </div>
+                    <button class="btn btn-warning" type="submit">Posaljite zahtev <span class="str"></span></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
+
+      <div class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-8">
+              <div class="title">O servisu</div>
+              <p>Naš servisni centar je opremljen <span class="xs">najsavremenijom opremom</span> za dijagnostiku i popravku mobilnih telefona, tableta, televizora, laptopova i ostalih elektricnih uređaja. Svi naši serviseri imaju dugogodišnje iskustvo u popravci električnih uređaja.</p>
+              <p>Ukoliko imate bilo kakav električni uređaj koji iz nekog razloga ne radi, <span class="xs">pozovite nas</span>. Vratićemo Vaš uređaj u ispravno i radno stanje.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <div class="phone">+381(061) <b>300-1040</b></div>
+              <div class="phone-btn">
+                <a href="#" class="btn btn-warning" v-on:click="showMasterModal=true">Zakažite servisera</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.about -->
+
+      <div class="index-carousel">
+        <div class="container">
+          <carousel :per-page="carouselItemsCount" :pagination-enabled="false" :navigation-enabled="true">
+            <slide>
+              <div class="item">
+                <img src="images/carousel/img1.jpg" alt="">
+                <div class="name">Popravka na terenu</div>
+                <div class="desc">Naš serviser na terenu</div>
+              </div>
+            </slide>
+            <slide>
+              <div class="item">
+                <img src="images/carousel/img2.jpg" alt="">
+                <div class="name">Naš servisni centar</div>
+                <div class="desc">Ovde obavljamo kompleksne popravke</div>
+              </div>
+            </slide>
+            <slide>
+              <div class="item">
+                <img src="images/carousel/img3.jpg" alt="">
+                <div class="name">Korisnička zona</div>
+                <div class="desc">Ovde možete sačekati dok ne obavimo popravku</div>
+              </div>
+            </slide>
+            <slide>
+              <div class="item">
+                <img src="images/carousel/img4.jpg" alt="">
+                <div class="name">Popravka na terenu</div>
+                <div class="desc">Naš serviser na terenu</div>
+              </div>
+            </slide>
+            <slide>
+              <div class="item">
+                <img src="images/carousel/img5.jpg" alt="">
+                <div class="name">Naš servisni centar</div>
+                <div class="desc">Ovde obavljamo kompleksne popravke</div>
+              </div>
+            </slide>
+          </carousel>
+        </div>
+      </div>
+      <!-- /.index-carousel -->
+
+
+      <div class="change" v-bind:class="{ open : showChangesForm }">
+        <div class="i1">
+          <div class="i2">
+            <div class="inner">
+              <div class="title">Prodajte Vaš stari ili oštećeni telefon <span>(do 200€)</span>!</div>
+              <a href="#" class="btn btn-more" v-on:click.prevent="showChangesForm = !showChangesForm">Više detalja <span class="arrow-up"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <div class="form-inner">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-7 col-md-7">
+                  <div class="title">Terms of exchange</div>
+                  <p>Vršimo otkup Apple i Samsung uređaja, neispravnih TV-a i laptopova novije generacije. Cena otkupa zavisi od stanja Vašeg uređaja, a našu konkretnu ponudu možete dobiti dolaskom u servisni centar, nakon pregleda samog uređaja. Ukoliko niste iz Niša, ili okoline, a želite da prodate Vaš uređaj možete nam ga poslati i putem kurirskih službi.</p>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-1">
+                  <div id="changeForm">
+                    <div class="title">Popunite formular</div>
+                    <div class="desc">radi provere mogućnosti otkupa</div>
+                    <form v-on:submit.prevent="onSubmitChangeBottomForm" method="POST" action="change.php" role="form" id="change-bottom-form">
+                      <div class="form-group">
+                        <label class="sr-only">IMEI telefona</label>
+                        <input type="text" name="imei" v-model="sendData.formUserImei" class="form-control" placeholder="IMEI phone code" required />
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only">Ime</label>
+                        <input type="text" name="name" v-model="sendData.formUserName" class="form-control" placeholder="Name" required />
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only">Broj telefona</label>
+                        <input type="text" name="phone" v-model="sendData.formUserPhone" class="form-control" placeholder="Phone (1234-567-8901)" required />
+                      </div>
+                      <button class="btn btn-block btn-warning" type="submit">Pošalji zahtev</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.change -->
+
+      <div class="employees">
+        <div class="container">
+          <div class="title">Svi naši zaposleni imaju <span>dugoggodišnje iskustvo</span><br/>u ovom poslu</div>
+          <carousel :per-page="carouselItemsCountEmployees" :pagination-enabled="false" :navigation-enabled="true">
+            <slide>
+              <div class="item">
+                <div class="foto" style="background-image: url('images/employees/md_portret.jpg')"></div>
+                <div class="name">Dejan Đorđević</div>
+                <div class="desc">Specijalnost:<br/>zamena većih delova i software</div>
+              </div>
+            </slide>
+            <slide>
+              <div class="item">
+                <div class="foto" style="background-image: url('images/employees/1040658.jpg')"></div>
+                <div class="name">Denis Đorđević</div>
+                <div class="desc">Specijalnost:<br/>popravka matičnih ploča svih uređaja</div>
+              </div>
+            </slide>
+            <!-- <slide>
+              <div class="item">
+                <div class="foto" style="background-image: url('images/employees/32475.jpg')"></div>
+                <div class="name">Denis Đorđević</div>
+                <div class="desc">Specijalnost:<br/>Software</div>
+              </div>
+            </slide> -->
+            <!-- <slide>
+              <div class="item">
+                <div class="foto" style="background-image: url('images/employees/sm_2501625_01_201410210438475898.jpg')"></div>
+                <div class="name">Apple master 4</div>
+                <div class="desc">Specialization:<br/>night watchman</div>
+              </div>
+            </slide> -->
+          </carousel>
+        </div>
+      </div>
+      <!-- /.employees -->
+
+      <div class="contacts">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-7">
+              <div class="title">Kontakt informacije</div>
+              <div class="desc">Servisni centar «FX Electronics»</div>
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <div class="adr">Gornjomatejevačka 83b, Niš 18000</div>
+                  <div class="mails"><a href="mailto:info@example.com">info@example.com</a><br/>Za dostavljače: <a href="mailto:partner@example.com">partner@example.com</a></div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <div class="phones">
+                    +381(061) 300-1040<br/>+381(062) 209-310<br/>+381(063) 854-8324<br/>
+                    <a href="#" class="btn" v-on:click.prevent="showCallBackModal = !showCallBackModal">Zakažite poziv</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-5">
+              <div class="title">Želje i predlozi</div>
+              <div class="form">
+                <form v-on:submit.prevent="onSubmitForm" method="POST" action="msg.php" role="form" id="was-form">
+                  <div class="msg"></div>
+                  <div class="form-group left">
+                    <label class="sr-only">Ime</label>
+                    <input type="text" v-model="sendData.formUserName" class="form-control" placeholder="Name" required />
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="mail">Email</label>
+                    <input type="email" v-model="sendData.formUserEmail" class="form-control" placeholder="Email" required />
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="msg">Poruka</label>
+                    <textarea class="form-control" v-model="sendData.formUserMsg" placeholder="Message" rows="4" required ></textarea>
+                  </div>
+                  <button class="btn btn-warning" type="submit">Pošalji poruku</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-xs-12 col-md-8">
+              <div class="soc-text"><span>Pridružite nam se na društvenim mrežama!</span> Objavljujemo najiteresantnije projekte i novosti</div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="soc-btn">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="map">
+          <div class="container">
+            <div class="title">Kako do nas</div>
+          </div>
+		  <div class="container">
+		  	<img src="images/mapa-servis.png" alt="Nasa lokacija" />
+		  </div>
+          <!-- <div id="map"></div> -->
+        </div>
+      </div>
+      <!-- /.contacts -->
+    </div>
+    <!-- /#apple-service-app -->
+    <div class="fb-footer-comments">
+      <div class="container">
+        <div class="title">Sta kažu naši <span>klijenti</span> o nama</div>
+
+        <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="5"></div>
+      </div>
+    </div>
+    <!-- /.fb-footer-comments -->
+
+    <script src="js/vue.js"></script>
+    <script src="js/vue-resource.min.js"></script>
+    <script src="js/vue-scrollto.js"></script>
+    <script src="js/vue-select.js"></script>
+    <script src="js/vue-carousel.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
