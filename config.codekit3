@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
 	"\/calculation.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -513,6 +520,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/mapa-servis.png": {
+		"ft": 32768,
+		"iS": 784171,
+		"oA": 0,
+		"oAP": "\/images\/mapa-servis.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/models\/0002500_ipad-pro-129-inch.png": {
 		"ft": 32768,
 		"iS": 1834791,
@@ -786,6 +804,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/uredjaji.png": {
+		"ft": 32768,
+		"iS": 324458,
+		"oA": 0,
+		"oAP": "\/images\/uredjaji.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/index.html": {
@@ -2627,7 +2656,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 551125423,
-	"displayValue": "servis",
+	"displayValue": "fx-electronics",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-dunnoGirl",
 	"iconImageWasSetByUser": 0

@@ -1079,7 +1079,7 @@ body {
   line-height: 1.375;
   font-weight: 400;
   color: #333333;
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
 }
 input,
 button,
@@ -3889,7 +3889,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 1;
   color: #555555;
   text-align: center;
-  background-color: #eeeeee;
+  /*background-color: #eeeeee;*/
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -11138,16 +11138,16 @@ yx-axis
 }
 .header,
 .footer {
-  background-color: #1e1e1e;
+  /*background-color: #1e1e1e;
   background-image: url('../images/header-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  background-size: cover;
+  background-size: cover;*/
 }
 .header .hline {
-  border-bottom: 1px solid #3e3e3e;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #3C5675;
+  border-bottom: 1px solid #3C5675;
 }
 .header .logo,
 .footer .logo {
@@ -11249,7 +11249,7 @@ yx-axis
   right: 0;
 }
 .header .title {
-  color: #f1f1f1;
+  color: #3C5675;
   margin: 0 0 30px;
   text-align: center;
 }
@@ -11266,7 +11266,7 @@ yx-axis
 }
 @media (min-width: 768px) {
   .header .title {
-    text-align: left;
+    text-align: center;
     margin: 0 0 50px;
   }
   .header .title h1,
@@ -11300,7 +11300,7 @@ yx-axis
   font-weight: 400;
 }
 .header .changes .y {
-  color: #ffd956;
+  color: #E7672E;
 }
 @media (min-width: 768px) {
   .header .changes {
@@ -11374,8 +11374,8 @@ yx-axis
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
   border-right: 0;
-  background-color: #ffd956;
-  border-color: #ffd956;
+  /*background-color: #E7672E;*/
+  border-color: #E7672E;
   color: #262525;
   font-size: 13px;
   font-weight: 500;
@@ -11404,7 +11404,8 @@ yx-axis
     border-radius: 24px;
   }
   .header .call-master .input-group-addon:first-child {
-    font-size: 16px;
+    font-size: 20px;
+    text-transform: uppercase;
   }
   .header .call-master .input-group-addon:last-child {
     font-size: 18px;
@@ -11414,10 +11415,10 @@ yx-axis
   margin: 0 0 30px;
   text-align: center;
   font-weight: 300;
-  color: #f1f1f1;
+  color: #3C5675;
 }
 .header .view > span {
-  color: #ffd956;
+  color: #E7672E;
 }
 @media (min-width: 768px) {
   .header .view {
