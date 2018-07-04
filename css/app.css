@@ -11146,8 +11146,7 @@ yx-axis
   background-size: cover;*/
 }
 .header .hline {
-  border-bottom: 1px solid #3C5675;
-  border-bottom: 1px solid #3C5675;
+  border-bottom: 1px solid #ddd;
 }
 .header .logo,
 .footer .logo {
@@ -11157,10 +11156,10 @@ yx-axis
 .header .phone,
 .footer .adr,
 .footer .phone {
-  font-size: 13px;
+  font-size: 18px;
   line-height: 20px;
   margin: 19px 0;
-  padding: 0 0 0 30px;
+  padding: 0;
   background-repeat: no-repeat;
   background-position: 0 5px;
 }
@@ -11172,7 +11171,7 @@ yx-axis
 .footer .adr > a,
 .footer .phone > span,
 .footer .phone > a {
-  color: #a4a4a4;
+  color: #B0BED1;
   display: block;
   text-decoration: none;
 }
@@ -11184,17 +11183,17 @@ yx-axis
 .footer .adr > a > span,
 .footer .phone > span > span,
 .footer .phone > a > span {
-  color: #f1f1f1;
+  color: #000;
 }
-.header .adr,
+/*.header .adr,
 .footer .adr {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAPCAQAAACYNP27AAAAvklEQVQoz12POw6CQBBAh0KtqKGhw4LoAYyJMbG05R6eQmNotDUmKDESPIB6GN9hcBiW+Clmd96b2c9ILbWQkHOj0MhJGtPIlAthA5qHmqeqtfOC10oreMqJ6LHA4MBVQxsIyIXSemasdF0xMyqFwpIhR/oaQ6NCqNydqf4kdXklrBl/HjQ5Yi1EnP/0iajZMqZfckLWjuPzpO9kjwe+aYUlW6c3LN3whnsWus7ZtdzpgV6UcGfwo7UQ8yLu6A3h7LdrRAR7WAAAAABJRU5ErkJggg==);
-}
+}*/
 .header .adr > span > span,
 .header .adr > a > span,
 .footer .adr > span > span,
 .footer .adr > a > span {
-  font-size: 12px;
+  font-size: 16px;
 }
 .header .phone,
 .footer .phone {
@@ -11204,19 +11203,19 @@ yx-axis
 .header .phone > a > span,
 .footer .phone > span > span,
 .footer .phone > a > span {
-  font-size: 15px;
+  font-size: 18px;
 }
 .header .callback .btn,
 .header .changes .btn,
 .footer .callback .btn {
-  font-size: 12px;
-  color: #dcdcdc;
-  border: 1px solid #fee964;
+  font-size: 16px;
+  color: #E7672E;
+  border: 2px solid #E7672E;
   padding: 7px 0;
-  border-radius: 16px;
-  -webkit-transition: 0.1s ease-in;
+  border-radius: 10px;
+  /*-webkit-transition: 0.1s ease-in;
   -o-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
+  transition: 0.1s ease-in;*/
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -11225,23 +11224,24 @@ yx-axis
 .header .callback .btn:hover,
 .header .changes .btn:hover,
 .footer .callback .btn:hover {
-  color: #000;
+  color: #B42800;
+  border: 2px solid #B42800;
 }
 .header .callback .btn:before,
 .header .changes .btn:before,
 .footer .callback .btn:before {
   content: "";
   position: absolute;
-  background: #fee964;
+  /*background: #B42800;*/
   bottom: 0;
   left: 0;
   top: 0;
   right: 100%;
   z-index: -1;
-  -webkit-transition: 0.1s ease-in;
+  /*-webkit-transition: 0.1s ease-in;
   -o-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
-  border-radius: 16px;
+  transition: 0.1s ease-in;*/
+  border-radius: 10px;
 }
 .header .callback .btn:hover:before,
 .header .changes .btn:hover:before,
@@ -11267,7 +11267,7 @@ yx-axis
 @media (min-width: 768px) {
   .header .title {
     text-align: center;
-    margin: 0 0 50px;
+    margin: 50px 0;
   }
   .header .title h1,
   .header .title .h1 {
@@ -11285,7 +11285,8 @@ yx-axis
 @media (min-width: 992px) {
   .header .title h1,
   .header .title .h1 {
-    font-size: 60px;
+    font-size: 70px;
+    font-weight: 900;
   }
   .header .title h2,
   .header .title .h2 {
@@ -11318,7 +11319,7 @@ yx-axis
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #f1f1f1;
+  color: #3C5675;
   font-weight: 300;
 }
 .header .desc ul li {
@@ -11333,12 +11334,15 @@ yx-axis
   }
   .header .desc ul {
     font-size: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin:  50px 0;
   }
   .header .desc ul li {
-    font-size: 14px;
+    font-size: 20px;
     display: inline-block;
     text-align: center;
-    width: 49%;
+    /*width: 49%;*/
     background-position: center top;
     padding: 50px 0 0;
     margin: 35px 0;
@@ -11367,7 +11371,7 @@ yx-axis
   text-decoration: none;
 }
 .header .call-master .input-group-addon {
-  border-radius: 19px;
+  border-radius: 10px;
   padding: 10px 0;
 }
 .header .call-master .input-group-addon:first-child {
@@ -11376,7 +11380,7 @@ yx-axis
   border-right: 0;
   /*background-color: #E7672E;*/
   border-color: #E7672E;
-  color: #262525;
+  color: #E7672E;
   font-size: 13px;
   font-weight: 500;
 }
@@ -11385,8 +11389,8 @@ yx-axis
   border-top-left-radius: 0;
   border-left: 0;
   background-color: transparent;
-  border-color: #f1f1f1;
-  color: #f1f1f1;
+  border-color: #E7672E;
+  color: #3C5675;
   font-weight: 100;
   font-size: 15px;
 }
@@ -11401,14 +11405,14 @@ yx-axis
   }
   .header .call-master .input-group-addon {
     padding: 14px 0;
-    border-radius: 24px;
+    border-radius: 10px;
   }
   .header .call-master .input-group-addon:first-child {
     font-size: 20px;
     text-transform: uppercase;
   }
   .header .call-master .input-group-addon:last-child {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .header .view {
